@@ -6,17 +6,17 @@ package testcar;
 public class testCar {
     public static void main(String[] args){
         Driver lewis = new Driver("Lewis Hamilton", 30, "UK");
-        System.out.println(lewis.getName() + "Age: " +lewis.getAge() + "Country: " + lewis.getCountry());
+        System.out.println(lewis.getName() + " Age: " +lewis.getAge() + " Country: " + lewis.getCountry());
 
         Driver vettel = new Driver("Sebastian Vettel", 28);
         vettel.setCountry("Germany");
         vettel.print();
 
         Car c1 = new Car("F1 W06", "Mercedes", lewis, 500);
-        System.out.println(c1.getName() + "Manufacturer: " + c1.getManufacturer() + "Driver: " + c1.getDriver().getName() + "FuelCapacity: " + c1.getFuelCapacity());
+        System.out.println(c1.getName() + " Manufacturer: " + c1.getManufacturer() + " Driver: " + c1.getDriver().getName() + " FuelCapacity: " + c1.getFuelCapacity());
         c1.refuel(100);
         c1.drive(400);
-        System.out.println(c1.getName() + "Manufacturer: " + c1.getManufacturer() + "Driver: " + c1.getDriver().getName() + "FuelCapacity: " + c1.getFuelCapacity());
+        System.out.println(c1.getName() + "  Manufacturer: " + c1.getManufacturer() + " Driver: " + c1.getDriver().getName() + " FuelCapacity: " + c1.getFuelCapacity());
 
 
         Car c2 = new Car("SF15-T", "Ferrari");

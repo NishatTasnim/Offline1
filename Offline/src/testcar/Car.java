@@ -58,6 +58,6 @@ public class Car {
     }
 
     public void print(){
-        System.out.println(name + "Manufacturer: " + manufacturer + "Driver: " + driver.getName() + "FuelCapacity: " + fuelCapacity);
+        System.out.println(name + " Manufacturer: " + manufacturer + " Driver: " + driver.getName() + " FuelCapacity: " + fuelCapacity);
     }
 }

@@ -33,6 +33,6 @@ public class Driver {
         this.country=country;
     }
     public void print(){
-        System.out.println(name + "Age: " + age + "Country: " + country);
+        System.out.println(name + " Age: " + age + " Country: " + country);
     }
 }
